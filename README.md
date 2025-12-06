@@ -11,7 +11,7 @@ There are three unique functions used in this package. One function that calulat
 I used the external library ggplot to help with plotting the data.
 
 4. What metadata fields are included in the DESCRIPTION file? <br> <br>
-Package, Type, Title, Version, Authors, Description, Install, License, Encoding, LazyData, RoxygenNote
+Package, Type, Title, Version, Authors, Description, Imports, License, Encoding, LazyData, RoxygenNote
 
 5. What license does the package use? <br> <br>
 MIT License was used.
