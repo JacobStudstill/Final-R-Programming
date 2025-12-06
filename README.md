@@ -2,7 +2,10 @@
 The package provides a simple way to summarize numeric data. The users supply a numeric vector, and the package returns mean, minimum, maximum, standard deviation, and median. These are the elementary things you learn for Stats. It uses an S3 system to store the summary and provides a custom print method. The custom print method provides a cleaner output for the user to understand.
 
 2. How many unique functions does this package provide? <br> <br>
-There are two unique functions used in this package. One function that calulates the vector into a stats summary and the other function that prints the results from the first function.
+There are three unique functions used in this package. One function that calulates the vector into a stats summary. The second function prints the results from the first function. The last function plots the values and it should look similiar to this:
+
+<img width="1598" height="884" alt="image" src="https://github.com/user-attachments/assets/2c29bfc9-0ae5-4f33-8e49-8dac1d6a4a6a" />
+
 
 3. How many external libraries or dependencies does the package use? <br> <br>
 I used the external library ggplot to help with plotting the data.
