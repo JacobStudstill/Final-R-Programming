@@ -4,19 +4,21 @@
 \alias{numSummary}
 \title{Create numeric summary}
 \usage{
-numSummary(x)
+numSummary(x, na.rm = TRUE)
 }
 \arguments{
-\item{x}{A numeric vector.}
+\item{x}{A numeric vector}
+
+\item{na.rm}{Logical, whether to remove NA values (default TRUE)}
 }
 \value{
-An object of class 'numSummary' containing summary statistics.
+An object of class 'numSummary'
 }
 \description{
 Computes mean, min, max, standard deviation, and median for a numeric vector.
 }
 \examples{
-my_numbers <- c(1, 5, 3, 9, 2)
+my_numbers <- c(1,5,3,NA,9,2)
 summary_obj <- numSummary(my_numbers)
 summary_obj
 }

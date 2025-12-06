@@ -10,6 +10,8 @@ Authors@R: c(
     )
   )
 Description: Provides a function to compute mean, min, max, standard deviation, and median for numeric vectors using an S3 system.
+Imports: 
+    ggplot2
 License: MIT
 Encoding: UTF-8
 LazyData: true
