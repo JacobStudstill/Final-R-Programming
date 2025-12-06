@@ -1,0 +1,21 @@
+---
+title: "Introduction to Basic Statistic Summary For Numeric Values"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to NumericalSummaryPackage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+
+The `NumericalSummaryPackage` provides a simple function, `numSummary()`, to summarize numeric data.
+
+# Example Usage
+
+```{r}
+library(NumericalSummaryPackage)
+
+my_numbers <- c(1, 5, 3, 9, 2)
+summary_obj <- numSummary(my_numbers)
+summary_obj
